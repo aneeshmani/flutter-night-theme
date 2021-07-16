@@ -1,0 +1,28 @@
+{
+    "name": "flutter-night-theme",
+    "displayName": "Flutter Night Theme",
+    "publisher": "maneesh",
+    "description": "Dark Theme for Flutter",
+    "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/aneeshmani/flutter-night-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flutter Night Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flutter Night Theme-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "node": "^16.4.0"
+    }
+}
